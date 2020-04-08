@@ -3,17 +3,18 @@ import smtplib
 from email.message import EmailMessage
 import imghdr
 
-EMAIL_ADDRESS = 'shantam12300@gmail.com'
-EMAIL_PASSWORD = 'Shantam@12'
+# you just have to enter these Credentials nothing else
+EMAIL_ADDRESS = 'you_email_address'
+EMAIL_PASSWORD = 'your_email_password'
 
 msg = EmailMessage()
 
-msg['Subject'] = 'subject'
+msg['Subject'] = 'Your_own_subject'
 msg['From'] = EMAIL_ADDRESS
-msg['To'] = 'shantam12300@gmail.com'
-msg.set_content('how abdkadakdhakdadajkdakdakadkhdhak h kjhakjkd')
+msg['To'] = 'Your_mail_id'
+msg.set_content('Your_Email_body')
 
-files = ['c1.jpg']
+files = ['Image_name_with.extension']
 
 for file in files:
     with open(file, 'rb') as f:
