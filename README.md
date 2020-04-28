@@ -1,4 +1,4 @@
-# sending-emails-using-python
+# sending Emails using python
 
 This a script that can be used for sending emails using python to multiple as well as single users with or without attachments
 
